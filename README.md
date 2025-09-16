@@ -9,7 +9,7 @@ The examples from lecture 3 and 4 are here also.
 Make sure you install software as we did in the check in:
    ```bash
    mamba env create --prefix $HOME/envs/xarray-climate -f environment.yml
-   mamba activate $HOME/envs/xarray-climate
+   conda activate $HOME/envs/xarray-climate
    ```
    or with pip:
    ```bash
