@@ -11,10 +11,5 @@ Make sure you install software as we did in the check in:
    mamba env create --prefix $HOME/envs/xarray-climate -f environment.yml
    conda activate $HOME/envs/xarray-climate
    ```
-   or with pip:
-   ```bash
-   python -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-   and use this environment when running the codes and for your homework.
+   
+and use this environment when running the codes and for your homework.
